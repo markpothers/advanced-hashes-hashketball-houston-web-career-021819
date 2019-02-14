@@ -187,7 +187,7 @@ def big_shoe_rebounds
     game_hash.each do |team, team_param|
       team_param[:players].each do |name, stats|
           if stats[:shoe] == shoesizes.sort.reverse[0]
-            puts stats[:rebounds]
+            return stats[:rebounds]
           end
       end
     end
