@@ -186,5 +186,5 @@ def big_shoe_rebounds
 puts shoesizes
     end
 big_shoe_rebounds
-    
+
 end
