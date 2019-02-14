@@ -182,7 +182,6 @@ def big_shoe_rebounds
     game_hash.each do |team, team_param|
       team_param[:players].each do |name, stats|
         shoesizes << stats[:shoe]
-        binding.pry
       end
 puts shoesizes
     end
