@@ -184,6 +184,7 @@ def big_shoe_rebounds
         shoesizes << stats[:shoe]
       end
 puts shoesizes
+binding.pry
     end
 end
 big_shoe_rebounds
