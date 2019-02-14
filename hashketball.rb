@@ -190,6 +190,6 @@ def big_shoe_rebounds
             return stats[:rebounds]
           end
       end
-    end      
+    end
 end
 big_shoe_rebounds
