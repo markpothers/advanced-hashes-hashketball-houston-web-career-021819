@@ -162,10 +162,7 @@ def player_numbers(query_team)
     game_hash.each do |team, team_param|
       if team_param[:team_name] == query_team
         team_param[:players].each do |name, stats|
-        binding.pry
-        stats.each do |parameter, number|
-          jerseys << parameter[:number]
-          end
+          jerseys << stats[:number]
         end
       end
     end
