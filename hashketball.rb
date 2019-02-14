@@ -169,7 +169,6 @@ def player_numbers(query_team)
         end
       end
     end
-  end
   jerseys
 end
 player_numbers("Brooklyn Nets")
