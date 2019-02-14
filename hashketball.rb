@@ -154,7 +154,6 @@ def team_names
   end
   teams
 end
-#team_names
 
 
 def player_numbers(query_team)
@@ -168,7 +167,6 @@ def player_numbers(query_team)
     end
   jerseys
 end
-player_numbers("Brooklyn Nets")
 
 def player_stats(player)
   game_hash.each do |team, team_param|
@@ -177,4 +175,16 @@ def player_stats(player)
       return  team_param[:players][player]
     end
   end
+end
+
+def big_shoe_rebounds
+  shoesizes = []
+    game_hash.each do |team, team_param|
+      team_param[:players].each do ||name, stats|
+        shoesizes << stats[:shoe]
+      end
+puts shoesizes
+    end
+big_shoe_rebounds
+    
 end
